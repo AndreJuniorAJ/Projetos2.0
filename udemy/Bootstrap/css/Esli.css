@@ -53,12 +53,12 @@ header, .navbar {
     padding: 0;
 }
 
-#main .carousel-inner, #mainSlider .carousel-item {
-    height: 90vh;
+#main .carousel-inner, #mainSlider .carousel-item { /*Deixando a altura codizente com a página*/
+    height: 90vh; /* viewheight no caso estou falando 90% da tela*/
 }
 
 #mainSlider .carousel-caption {
-    top: 30%;
+    top: 30%; /*Direcionando um pouco mais para baixo*/
 }
 
 #mainSlider .carousel-caption h2 {
@@ -66,14 +66,14 @@ header, .navbar {
     margin-bottom: 30px;
 }
 
-#mainSlider .carousel-caption p {
+#mainSlider .carousel-caption p { /*estilizar o paragrafo*/
     font-size: 22px;
     font-weight: 300;
     margin-bottom: 100px;
     color: #fff;
 }
 
-.main-btn {
+.main-btn { /*Estilizar o botão*/
     background-color: #65DAF9;
     color: #fff;
     text-transform: uppercase;
@@ -94,4 +94,96 @@ header, .navbar {
 
 .carousel-indicators .active{
     background-color: #65DAF9;
+}
+
+/* Sobre a empresa */
+
+#about-area {
+    background-color: #f9f9f9;
+}
+
+.main-title { /*estilização do titulo*/
+    color: #444;
+    margin: 0/*<-- para cima */ 0 /*<-- para direita*/ 65px /*<-- para baixo */ 0 /*<-- esquerda*/;
+    font-size: 40px;
+    text-align: center;
+}
+
+.main-title::after {
+    content:"";
+    border-top: 2px solid #333;
+    width: 15%;
+    position: absolute;
+    top: 60px;
+    left: 42.5%;
+}
+
+.about-tile {
+    font-size: 17px;
+    color: #444;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+#about-list {
+    list-style: none; /* tira a bolinha*/
+    padding-left: 0;
+}
+
+#about-list li {
+    line-height: 30px;
+}
+
+#about-list i {
+    color: #65DAF9;
+}
+
+/*Serviços */
+
+.service-box {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.service-box i, .service-box h4 {
+    transition: .5s;
+}
+
+.service-box i {
+    font-size: 36px;
+    margin-bottom: 20px;
+    color: #444;
+}
+
+.service-box h4 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.service-box > i, .service-box:hover > h4 {
+    color: #65DAF9;
+}
+
+/* Dados */
+
+.circle-box div {
+    padding: 0 40px;
+}
+
+.progress-text {
+    font-weight: bold;
+    font-size: 32px;
+}
+
+#data-area p {
+    color: #fff;
+    text-align: center;
+    font-size: 26px;
+    margin-top: 20px;
+}
+
+/* Time */
+
+.card-body {
+    text-align: center;
 }
