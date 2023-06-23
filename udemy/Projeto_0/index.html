@@ -35,20 +35,34 @@
      <button type="submit" class="btn btn-primary" id="envio"><a href="./pag.html" id="link">Enviar</a></button>
      <div class="result-container"></div>
     
-     <p>CADASTRE-SE <i class="fa-solid fa-right-to-bracket" id="icon"><a href="#"> Aqui</a></i></p>
-
      
+     <!-- Botão para acionar modal -->
+        <p data-toggle="modal" data-target="#ExemploModalCentralizado">
+            CADASTRE-SE <i class="fa-solid fa-right-to-bracket" id="icon"><a href="#"> Aqui</a></i>
+        </p>
+       
+       <!-- Modal -->
+       <div class="modal fade" id="ExemploModalCentralizado" tabindex="-1" role="dialog" aria-labelledby="TituloModalCentralizado" aria-hidden="true">
+         <div class="modal-dialog modal-dialog-centered" role="document">
+           <div class="modal-content">
+             <div class="modal-header">
+               <h5 class="modal-title" id="TituloModalCentralizado">Título do modal</h5>
+               <button type="button" class="close" data-dismiss="modal" aria-label="Fechar">
+                 <span aria-hidden="true">&times;</span>
+               </button>
+             </div>
+             <div class="modal-body">
+               ...
+             </div>
+             <div class="modal-footer">
+               <button type="button" class="btn btn-secondary" data-dismiss="modal">Fechar</button>
+               <button type="button" class="btn btn-primary">Salvar mudanças</button>
+             </div>
+           </div>
+         </div>
+       </div>
     </div>
-    <div class="janela-modal" id="janela-modal">
-        <div class="modal">
-            <h1>Janela Modal</h1>
-            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sunt rem voluptas magni veniam enim dolores facere atque, suscipit ducimus iste consectetur doloremque labore, animi optio saepe doloribus et, dicta inventore.</p>
-        </div>
-     </div>
 
-    
-    
-    
 
  <script src="./js/função.js"></script>
 </body>

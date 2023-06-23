@@ -422,6 +422,7 @@ header, .navbar {
     text-decoration: none;
     color: #3EC1D5;
   }
+  
 /* Responsive para tablet */
 
 @media(max-width: 912px) { /* tag para funcionamente responsivo do tamanho de um tablet */

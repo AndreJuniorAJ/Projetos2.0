@@ -24,27 +24,3 @@
 .container a {
     color: inherit;
 }
-
-.janela-modal {
-    width: 50vw;
-    height: 50vh;
-    position: relative;
-    top: 0;
-    left: 0;
-    background-color: #00000080;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    z-index: 99999;
-}
-
-
-.modal {
-    width: 60%;
-    min-width: 450px;
-    min-height: 200px;
-    background-color: #ffffff96;
-    backdrop-filter: blur(10px);
-    padding: 50px;
-    border-radius: 20px;
-}
